@@ -1,0 +1,217 @@
+main{
+    margin: 32px 124px;
+}
+.PrimaSectiune{
+    display: inline-flex;
+    align-items: center;
+}
+
+.PrimaSectiune img{
+    padding-right: 32px;
+}
+
+.PrimaSectiune p{
+    text-align: justify;
+    font-size: 16px;
+    color: #0c0c0c;
+    line-height: 1.5;
+}
+
+.ADouaSectiune{
+    display: inline-flex;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.ADouaSectiune p {
+    text-align: justify;
+    font-size: 16px;
+    color: #0c0c0c;
+    line-height: 1.5;
+    width: 90%;
+    margin-right: 32px;
+}
+
+.Mentor{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 32px;
+}
+.Mentor h2{
+    font-size: 24px;
+    line-height: 0;
+    
+}
+
+.MentorContent{
+    margin-top: 0;
+    display: flex;
+    align-items: flex-start;
+    text-align: right;
+}
+
+.MentorContentText{
+    margin-right: 36px;
+    margin-top: 12px;
+}
+.MentorContentText p{
+    display: block;
+    margin-bottom: 32px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+footer{
+    margin-top: 4%;
+}
+
+.Mentortel{
+    display: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    main{
+        margin-left: 223px;
+        margin-right: 24px;
+        margin-top: 24px;
+    }
+    .PrimaSectiune img{
+        padding-right: 8px;
+        width: 170px;
+        height: 230px;
+    }
+    .PrimaSectiune{
+        display: inline-flex;
+        align-items: center;
+    }
+    .PrimaSectiune p{
+        text-align: justify;
+        font-size: 14px;
+        color: #0c0c0c;
+        line-height: 1.3;
+    }
+
+    .ADouaSectiune{
+        display: inline-flex;
+        align-items: center;
+        margin-top: 16px;
+    }
+    
+    .ADouaSectiune p {
+        text-align: justify;
+        font-size: 14px;
+        color: #0c0c0c;
+        line-height: 1.3;
+        width: 90%;
+        margin-right: 24px;
+    }
+
+    .Mentor{
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 32px;
+    }
+    .Mentor h2{
+        color: #0c0c0c;
+        font-size: 20px;
+        line-height: 0;
+    }
+    
+    .MentorContent{
+        margin-top: 4px;
+        display: flex;
+        align-items: flex-start;
+        text-align: right;
+    }
+    
+    .MentorContentText{
+        margin-right: 28px;
+        margin-top: 0px;
+    }
+    .MentorContentText p{
+        font-size: 14px;
+        display: block;
+        margin-bottom: 20px;
+        line-height: 1.3;
+        text-align: justify;
+    }
+    .mentorimg{
+        width: 170px;
+        height: 230px;
+    }
+    .Mentortel{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px){
+    main{
+        margin-left: 8px;
+        margin-right: 8px;
+        margin-top: 0;
+        min-height: 100vh;
+    }
+    
+    .PrimaSectiune{
+        display: flex;
+        flex-direction: column;
+        margin-top: 68px;
+        justify-content: center;
+        padding: 0;
+    }
+    .PrimaSectiune img{
+        padding-right: 0;
+        width: 250px;
+        height: auto;
+    }
+    .PrimaSectiune p{
+        text-align: justify;
+        font-size: 12px;
+        color: #0c0c0c;
+        line-height: 1.5;
+    }
+    
+    .ADouaSectiune{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 16px;
+    }
+    
+    .ADouaSectiune p {
+        text-align: justify;
+        font-size: 12px;
+        color: #0c0c0c;
+        line-height: 1.5;
+        width: 100%;
+        margin: 0;
+        padding-bottom: 8px;
+    }
+
+    .Mentor{
+        display: none;
+    }
+    .Mentortel{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 32px;
+    }
+    .Mentortel p{
+        font-size: 12px;
+        text-align: justify;
+        color: #0c0c0c;
+        line-height: 1.5;
+    }
+    .mentelimg{
+        width: 250px;
+        height: auto;
+    }
+    .Mentortel h2{
+        font-size: 20px;
+        color: #0c0c0c;
+    }
+}
+

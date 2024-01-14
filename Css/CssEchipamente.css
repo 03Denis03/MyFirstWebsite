@@ -1,0 +1,346 @@
+main{
+    margin-left: 124px;
+    margin-right: 124px;
+}
+h1{
+    font-size: 32px;
+    font-weight: 600;
+    color: #0c0c0c;
+}
+.PrimulP{
+    font-size: 16px;
+    color: #0c0c0c;
+    text-align: justify;
+    line-height: 1.5;
+}
+.AlDoileP{
+    font-size: 16px;
+    color: #0c0c0c;
+    text-align: justify;
+    line-height: 1.5;
+}
+h2{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0c0c0c;
+    line-height: 0;
+}
+
+.Sectiune1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom:64px;
+}
+.contentS1{
+    display: inline-flex;
+    gap:16px;
+}
+.contentS1 p{
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top:32px;
+}
+
+.Sectiune2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom:64px;
+}
+.contentS2{
+    display: inline-flex;
+    gap:16px;
+}
+.contentS2 p{
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top:32px;
+}
+.Sectiune3{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 112px;
+    text-align: center;
+}
+
+.Sectiune3 p{
+    margin-left:16px;
+    text-align: justify;
+}
+.Sectiune3 h2{
+    align-self: flex-start;
+}
+.imgS3{
+    align-self: center;
+    display: flex;
+    gap: 112px;
+}
+
+.Sectiune1tab{
+    display: none;
+}
+.S2tab1{
+    display: none;
+}
+.Sectiune3tab{
+    display: none;
+}
+.Sectiunetel{
+    display: none;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+    h1{
+        font-size: 28px;
+        font-weight: 600;
+        color: #0c0c0c;
+    }
+    .PrimulP{
+        font-size: 14px;
+        color: #0c0c0c;
+        text-align: justify;
+        line-height: 1.5;
+    }
+    .Sectiune1{
+        display: none;
+    }
+    main{
+        margin-left: 223px;
+        margin-right: 24px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    .Sectiune1tab{
+        display: flex;
+        flex-direction: column;
+    }
+    .imgP1 img{
+        width: 300px;
+        height: 200px;
+    }
+    .imgP1{
+        display: inline-flex;
+        gap:8px;
+    }
+    h2{
+        font-size: 18px;
+        font-weight: bold;
+        color: #0c0c0c;
+        line-height: 0;
+    }
+    .Sectiune1tab p{
+        font-size: 14px;
+        color: #0c0c0c;
+        text-align: justify;
+        line-height: 1.5;
+    }
+    .up{
+        margin-top: -8px;
+    }
+
+
+    .Sectiune2{
+        display: none;
+    }
+    
+    .S2tab1{
+        display: inline-flex;
+        gap: 12px;
+        margin-top: 36px;
+    }
+    .S2tab1 div{
+        display: flex;
+        flex-direction: column;
+    }
+    .S2tab1 img{
+        width: 300px;
+        height: 200px;
+    }
+    .S2tab1 p{
+        font-size: 14px;
+        color: #0c0c0c;
+        line-height: 1.5;
+        text-align:justify;
+        margin: 0;
+    }
+    .S2tab1 h2{
+        color: #0c0c0c;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 0;
+    }
+
+    .Sectiune3{
+        display: none;
+    }
+    .Sectiune3tab{
+       margin-top: 36px;
+       
+       display: flex;
+       flex-direction: column; 
+    }
+    .part1{
+        display: inline-flex;
+        gap: 8px;
+    }
+    .part1 img{
+        width: 230px;
+        height: 230px;
+    }
+
+    .part1 p {
+        font-size: 14px;
+        color: #0c0c0c;
+        line-height: 1.5;
+        text-align:justify;
+        margin: 0;
+    }
+    .part2 img{
+        width: 230px;
+        height: 230px;
+        margin: 0;
+    }
+    .part2{
+        margin-top: 12px;
+        display: inline-flex;
+        align-self: center;
+        gap: 60px;
+    }
+    .Sectiunetel{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 767px){
+    .Sectiune1{
+        display: none;
+    }
+    .Sectiune2{
+        display: none;
+    }
+    .Sectiune3{
+        display: none;
+    }
+
+    .Sectiune1tab{
+        display: none;
+    }
+    .S2tab1{
+        display: none;
+    }
+    .Sectiune3tab{
+        display: none;
+    }
+    .ip{
+        display: none;
+    }
+    .PrimulP{
+        display: none;
+    }
+    .AlDoileP{
+        display: none;
+    }
+    .Sectiunetel{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 64px;
+    }
+    main{
+        margin-right: 8px;
+        margin-left: 8px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .part1t{
+        text-align: center;
+    }
+    .part1t p{
+        font-size: 12px;
+        line-height: 1.5;
+        color: #0c0c0c;
+        text-align: justify;
+        margin: 0;
+        margin-top: 8px;
+    }
+    .part1t h1{
+        font-size:24px;
+        font-weight: 600;
+        color: #0c0c0c;
+        align-self: center;
+        line-height: 0;
+        margin-bottom: 24px;
+    }
+    .part2t img{
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    .part2t{
+        margin-top: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .part2t p{
+        text-align: justify;
+        font-size: 12px;
+        line-height: 1.5;
+        color: #0c0c0c;
+        margin: 0;
+        margin-top: 8px;
+    }
+
+    .part3t img{
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    .part3t{
+        margin-top: 28px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .part3t p{
+        text-align: justify;
+        font-size: 12px;
+        line-height: 1.5;
+        color: #0c0c0c;
+        margin: 0;
+        margin-top: 8px;
+    }
+
+    .part4t{
+        margin-top: 28px;
+        display: inline-flex;
+        margin-bottom: 64px;
+        gap: 12px;
+    }
+    .part4t img{
+        width: 100px;
+        height: 100px;
+    }
+    .part4t.t1{
+        display: flex;
+        flex-direction: column;
+    }
+    .part4t p{
+        text-align: justify;
+        font-size: 12px;
+        line-height: 1.5;
+        color: #0c0c0c;
+    }
+    h2{
+        font-size: 18px;
+        color: #0c0c0c;
+        font-weight: 600;
+    }
+}
+  
+
+  

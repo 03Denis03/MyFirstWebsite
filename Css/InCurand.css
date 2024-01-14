@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+/* Additional styles if needed */
+.centered-container {
+    text-align: center;
+}
+h1{
+    font-size: 32px;
+    color: #0c0c0c;
+}
+main{
+    margin-left: 124px;
+    margin-right: 124px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    h1{
+        font-size: 24px;
+        color: #0c0c0c;
+    }
+    main{
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    h1{
+        font-size: 20px;
+        color: #0c0c0c;
+    }
+    main{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+}

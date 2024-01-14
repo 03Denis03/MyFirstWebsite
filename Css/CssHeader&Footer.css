@@ -1,0 +1,259 @@
+header{
+    width: 100%;
+    background-color:#F1ECE2;
+    display: flex;
+    height: 3.25em;
+}
+.logo-container{
+    margin-left: 7.75em;
+    margin-top:0.625em
+}
+.NavBar{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+ul.ChenarElementeNav{
+    list-style-type: none;
+    padding: 0;
+    margin-right: 7.75em;
+    display: flex;  
+    
+}
+
+ul.ChenarElementeNav li{
+    margin-right: 0.625em;
+    margin-left: 0.625em;
+}
+
+.NavBar a{
+    text-decoration: none;
+    color:#0c0c0c;
+    font-size: 1em;
+    display: block;
+    padding: 1em 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.NavBar a:hover {
+    background-color: #e4d1b564; /* Change color on hover */
+  }
+
+.logolink{
+    margin-left: 7.75em;
+    margin-bottom: -10em;
+}
+
+footer{
+    background-color:rgb(241, 236, 226) ;
+    margin-top: -3.25em;
+    height: 3.25em;
+    width: 100%;
+    display: flex;
+    vertical-align: middle;
+}
+.NavBar1{
+    margin-left: 7.75em;
+    display: flex;
+    align-items: center;
+}
+
+.NavBar1 a{
+    text-decoration: none;
+    color:#0c0c0c;
+    font-size: 1em;
+    display: block;
+    padding: 1em 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.NavBar1 a:hover {
+    background-color: #e4d1b564; /* Change color on hover */
+  }
+
+.SocialMedia{
+    margin-left: auto;
+    margin-right: 7.75em;
+    margin-top: 0.7em;
+}
+.SocialMediah{
+    display: none;
+}
+.hamburger-menu {
+    display: none; /* Initially hide on larger screens */
+}
+.mobile-menu{
+    display: none;
+}
+/* Tablet media query */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .SocialMediah{
+        display: flex;
+        margin-top: auto;
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+    
+    /* Disable the footer menu */
+    footer .NavBar1 {
+      display: none;
+    }
+  
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 199px; /*Latimea meniului vertical*/
+      min-height: 100vh; 
+      display: flex;
+      flex-direction: column; 
+      align-items:start;
+      justify-content: flex-start;
+      z-index: 999; 
+      overflow-y: auto; /*Scroll activat daca este necesar*/
+      background-color: #F1ECE2; 
+      overflow-x: hidden;
+    }
+
+    .ChenarElementeNav{
+        position: sticky;
+        display: flex;
+        flex-direction: column;
+        margin-left: 24px;
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    .ChenarElementeNav li{
+        margin: 0;
+        flex:none;
+        width: 100%;
+        padding-left: 0;
+    }
+    .NavBar a{
+        text-decoration: none;
+        color:#0c0c0c;
+        font-size: 0.875em;
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top:4px;
+        padding-bottom:4px
+    }
+    
+
+    footer{
+        display: none;
+    }
+    .logo-container {
+       margin-left: 24px; 
+       padding: 0;
+    }
+
+    
+    
+    
+    .hamburger-menu {
+        display: none; /* Ascuns pe ecranele mari */
+    }
+    .mobile-menu{
+        display: none;
+    } 
+    .MediaIcon{
+        width: 24px;
+        height: 24px;
+        padding-right: 12px;
+    } 
+}
+
+@media screen and (max-width: 767px){
+    body{
+        max-width: 100%;
+    }
+    header {
+        display: flex;
+        height: 3.25em; 
+        background-color: #F1ECE2;
+        position: fixed;
+        top: 0;
+        left: 0;
+    } 
+    .logo-container {
+        margin-left: 8px;
+        padding: 0;
+        flex:1;
+    }
+    
+
+
+    header .NavBar{
+        display: none;
+    }
+    footer .NavBar1{
+        display: none;
+    }
+
+
+    .hamburger-menu {
+        margin-left: auto;
+        display:contents;
+        width: 24px;
+        height: 24px;
+        display: flex;
+        margin-top: 14px;
+        margin-right: 8px;
+        
+    }
+    .mobile-menu {
+        display: none; /* Initial ascuns */
+        background-color: #F1ECE2;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+        z-index: 1000;
+        margin-top: 3.25em;
+    }
+    .mobile-menu a {
+        display: block;
+        padding: 12px;
+        border: #0c0c0c;
+        color:#0c0c0c;
+        text-decoration: none;
+        font-size: 12px;
+    } 
+
+
+    footer .SocialMedia {
+        display: inline-flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        align-items: center;
+        gap:8px
+         /* Adjust top margin if needed */
+    }
+    footer .SocialMedia a{
+        margin: 0;
+        padding:0;
+    }
+    
+    
+    footer .SocialMedia img {
+        width: 24px; /* Set a specific width for the icons */
+        height: 24px; /* Set a specific height for the icons */
+        /* Add any additional styling needed */
+    } 
+    footer{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }   
+}
